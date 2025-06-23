@@ -1,155 +1,78 @@
 <!DOCTYPE html>
 <html lang="he">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>סימולציית פישינג לארגונים - עד 250 עובדים</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>סימולציית פישינג לארגונים</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f5f8fb;
-      color: #222;
-      margin: 0;
-      padding: 20px;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
       direction: rtl;
-    }
-    .container {
-      max-width: 900px;
+      padding: 20px;
+      max-width: 700px;
       margin: auto;
-      background: #fff;
-      padding: 30px;
-      border-radius: 16px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
     .logo {
       text-align: center;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
     }
     .logo img {
-      max-width: 220px;
+      max-width: 200px;
       height: auto;
     }
     h1 {
-      color: #0b3d91;
-      text-align: center;
+      color: #1a73e8;
+      font-size: 28px;
       margin-bottom: 20px;
+      text-align: center;
     }
     h2 {
-      color: #0b3d91;
-      font-size: 20px;
+      color: #333;
       margin-top: 30px;
+      font-size: 22px;
     }
     ul {
-      list-style: none;
-      padding: 0;
+      padding-right: 20px;
     }
-    ul li::before {
-      content: '\2714';
-      color: green;
-      margin-left: 8px;
-    }
-    .form-container {
-      background: #f9f9f9;
-      padding: 25px;
-      border-radius: 12px;
-      margin-top: 30px;
-    }
-    .form-group {
-      margin-bottom: 20px;
-    }
-    label {
-      display: block;
-      margin-bottom: 8px;
-      font-weight: bold;
-    }
-    input, textarea {
-      width: 100%;
-      padding: 12px;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-      box-sizing: border-box;
-    }
-    button {
-      background-color: #0b3d91;
-      color: #fff;
-      border: none;
-      padding: 14px 20px;
-      border-radius: 8px;
-      cursor: pointer;
-      font-size: 16px;
-      width: 100%;
-    }
-    button:hover {
-      background-color: #0945a3;
+    .footer {
+      font-size: 14px;
+      color: #777;
+      margin-top: 40px;
+      border-top: 1px solid #ddd;
+      padding-top: 15px;
+      text-align: center;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="logo">
-      <img src="HR-LogicLOGO.png" alt="HR Logic Logo" />
-    </div>
 
-    <h1>שירות סימולציית פישינג לארגונים</h1>
-    <p style="text-align:center; font-size: 18px;">שירות מהיר ויעיל — ללא התקנות, ללא פלטפורמות כבדות (עד 250 עובדים)</p>
+<div class="logo">
+  <!-- הוסף כאן את הלוגו -->
+  <img src="HR-LogicLOGO.png" alt="לוגו החברה">
+</div>
 
-    <h2>מה השירות כולל?</h2>
-    <ul>
-      <li>שליחת מיילי פישינג מותאמים (עד 250 עובדים)</li>
-      <li>מעקב מלא בגיליון Google Sheets</li>
-      <li>מייל אזהרה אישי לעובד שלחץ</li>
-      <li>דוח סיכום למנהלים</li>
-      <li>תמיכה מלאה בעברית</li>
-    </ul>
+<h1>סימולציית פישינג לארגונים</h1>
 
-    <h2>למה זה חשוב?</h2>
-    <ul>
-      <li>מתקפות פישינג הן השער הנפוץ ביותר לפריצות סייבר</li>
-      <li>העלאת מודעות העובדים = מניעת נזק</li>
-    </ul>
+<p>במסגרת השירות נבצע עבורכם תרגולת פישינג מקצועית, המיועדת לשיפור המודעות לאבטחת מידע בקרב העובדים ולחיזוק ההגנה על הארגון מפני מתקפות פישינג.</p>
 
-    <div class="form-container">
-      <h2>השאירו פרטים ונחזור אליכם:</h2>
-      <form id="phishingForm">
-        <div class="form-group">
-          <label for="name">שם מלא:</label>
-          <input type="text" id="name" name="name" required />
-        </div>
-        <div class="form-group">
-          <label for="email">אימייל:</label>
-          <input type="email" id="email" name="email" required />
-        </div>
-        <div class="form-group">
-          <label for="phone">טלפון:</label>
-          <input type="tel" id="phone" name="phone" />
-        </div>
-        <div class="form-group">
-          <label for="message">הערות:</label>
-          <textarea id="message" name="message" rows="4"></textarea>
-        </div>
-        <button type="submit">להשארת פרטים</button>
-      </form>
-    </div>
+<h2>מה כלול בתרגולת:</h2>
+<ul>
+  <li>כתיבת תרחיש מותאם אישית לארגון</li>
+  <li>שליחת מייל סימולציה לכלל העובדים (עד 250)</li>
+  <li>מעקב בזמן אמת אחר פתיחות והקלקות</li>
+  <li>הפקת דוח מפורט להנהלה (PDF / Excel)</li>
+  <li>פגישת סיכום עם הגורמים הרלוונטיים בארגון</li>
+  <li>ליווי ותמיכה טכנית במהלך הקמפיין</li>
+</ul>
 
-    <script>
-      const form = document.getElementById('phishingForm');
-      form.addEventListener('submit', e => {
-        e.preventDefault();
-        const formData = new FormData(form);
-        fetch('https://script.google.com/macros/s/AKfycby8EwmxIQFCcqY9WHuS9fEdnW3VV_yAAMWuao2N6MvWtG7QoHBCt8nJMZMu88SaUjpL/exec', {
-          method: 'POST',
-          body: formData
-        })
-        .then(response => {
-          alert('הפרטים נקלטו בהצלחה, נחזור אליך בהקדם!');
-          form.reset();
-        })
-        .catch(error => {
-          alert('אירעה שגיאה בשליחת הטופס. אנא נסה שוב.');
-          console.error('Error:', error);
-        });
-      });
-    </script>
-  </div>
+<p>התרגולת מתבצעת בהתאם לנהלי אבטחת מידע והגנה על פרטיות.</p>
+
+<div class="footer">
+  <!-- ניתן להוסיף כאן פרטי יצירת קשר או הפניה לטופס -->
+</div>
+
 </body>
 </html>
